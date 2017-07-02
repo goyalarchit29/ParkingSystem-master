@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin">
+
+    <!-- Overview category -->
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">-->
+
+        <!-- Label -->
+        <!--<TextView
+            android:text="@string/overview"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />-->
+
+        <!-- Input fields -->
+        <!--<LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="4dp"
+            android:orientation="vertical">-->
+
+            <!-- Name field -->
+            <!--<EditText
+                android:id="@+id/edit_user_name"
+                android:hint="@string/hint_user_name"
+                android:inputType="textCapWords"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:fontFamily="sans-serif" />-->
+
+            <!-- Email field -->
+            <!--<EditText
+                android:id="@+id/edit_user_email"
+                android:hint="Email"
+                android:inputType="textWebEmailAddress"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:fontFamily="sans-serif" />
+        </LinearLayout>
+    </LinearLayout>-->
+
+    <!-- Gender category -->
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">-->
+
+        <!-- Label -->
+        <!--<TextView
+            android:text="Contact"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            />-->
+
+        <!-- Input field -->
+        <!--<LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edit_mobile_no"
+                android:inputType="number|phone"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:fontFamily="sans-serif"
+                android:hint="Mobile Number" />
+        </LinearLayout>
+    </LinearLayout>-->
+
+    <!-- Measurement category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="Enter new Vehicle Number"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <!-- Input fields -->
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="4dp">
+
+            <!-- Weight field -->
+            <EditText
+                android:id="@+id/edit_vehicle_no"
+                android:hint="DL456789"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:fontFamily="sans-serif"
+                android:layout_toStartOf="@+id/add_vehicle" />
+
+            <Button
+                android:text="ADD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="28dp"
+                android:id="@+id/add_vehicle"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!-- Label -->
+        <TextView
+            android:text="Vehicle List"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.93"
+            android:paddingTop="16dp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="4dp">
+            <android.support.v7.widget.RecyclerView
+                android:scrollbars="vertical"
+                android:layout_width="222dp"
+                android:layout_height="match_parent"
+                android:id="@+id/my_recycler_view"/>
+        </RelativeLayout>
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "435736027527",
+    "firebase_url": "https://parkeasy-5f7f7.firebaseio.com",
+    "project_id": "parkeasy-5f7f7",
+    "storage_bucket": "parkeasy-5f7f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435736027527:android:29da1eab45b15807",
+        "android_client_info": {
+          "package_name": "com.example.shubham.parkingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435736027527-0go28h142qugu317av40ouj9s8888r7k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shubham.parkingsystem",
+            "certificate_hash": "b0227140bf82f4d108ccc1ac07df6836596bb49a"
+          }
+        },
+        {
+          "client_id": "435736027527-0eav1ms84atcqb7n4a90v6dfb5l0hnod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxw7F408nm9zJeYc9Z0JaqFfIOlnW2NtA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435736027527-0eav1ms84atcqb7n4a90v6dfb5l0hnod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
